@@ -1,0 +1,58 @@
+ forward = -2147483412
+
+d = 2
+len digit = 0
+max digit = 2
+rev = 0
+
+d = 1
+len digit = 1
+max digit = 1
+rev = 2
+
+d = 4
+len digit = 2
+max digit = 4
+rev = 21
+
+d = 3
+len digit = 3
+max digit = 7
+rev = 214
+
+d = 8
+len digit = 4
+max digit = 4
+rev = 2143
+could overflow.
+
+d = 4
+len digit = 5
+max digit = 8
+rev = 21438
+
+d = 7
+len digit = 6
+max digit = 3
+rev = 214384
+could overflow.
+
+d = 4
+len digit = 7
+max digit = 6
+rev = 2143847
+
+d = 1
+len digit = 8
+max digit = 4
+rev = 21438474
+
+d = 2
+len digit = 9
+max digit = 7
+rev = 214384741
+
+ return 0
+thread 'negative' panicked at 'assertion failed: `(left == right)`
+  left: `-2143847412`,
+ right: `0`', src/main.rs:71:5

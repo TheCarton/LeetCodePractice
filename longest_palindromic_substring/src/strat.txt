@@ -1,0 +1,16 @@
+s = babad
+i = 0, longest = "", new = b
+longest = "b"
+i = 1, longest ="b", new = a
+can't add it, longest doesn't change
+i = 2, longest = "b", new = bab
+longest = "bab"
+i = 3, longest = "bab", new = a
+can't add it
+i = 4, longest = "bab", new = d
+can't add it
+
+then we move the left pointer.
+
+for each entry in table,
+  check if adding all remaining letters to the last valid palindrome works
